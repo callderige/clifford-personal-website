@@ -1,0 +1,11 @@
+body{
+	background: #E6E2AF;
+	color: #002F2F;
+}
+
+.custom-hr{
+	border: 0;
+	height: 1px;
+	background: #002F2F;
+	background-image: linear-gradient(to right, #E6E2AF, #002F2F, #E6E2AF);
+}
