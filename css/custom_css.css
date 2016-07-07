@@ -7,9 +7,10 @@ body{
 	padding-top: 100px;
 	padding-bottom: 50px;
 	background: #D1DBBD;
+	text-align: center;
 }
 
-.test{
+.icon-size{
 	font-size: 128px;
 }
 
@@ -29,10 +30,16 @@ a.resume{
     top: -71px;
     visibility: hidden;
 }
+a.contact{
+	display: block;
+    position: relative;
+    top: -71px;
+    visibility: hidden;
+}
 
 nav{
 	text-align: center;
-	background: #193441;
+	background-color: #193441;
 	font-weight: bold;
 }
 
@@ -66,36 +73,30 @@ nav li a:active{
 	color: #FCFFF5;
 }
 
-hr.custom-hr { 
-	height: 30px;
-    border-style: solid;
-    border-color: #8c8b8b;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
+hr.custom-hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
-hr.custom-hr:before{
-	display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: #8c8b8b;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-} 
-
 
 .container-about{
 	padding-top: 50px;
 	padding-bottom: 75px;
 	background-color: #3E606F;
 	color: #FCFFF5;
+	text-align: center;
 }
 
 .container-resume{
 	padding-top: 50px;
 	padding-bottom: 75px;
 	background-color: #FCFFF5;
+}
+
+.resume-header{
+	padding-bottom: 50px;
+	text-align: center;
 }
 
 .title{
@@ -114,4 +115,26 @@ hr.custom-hr:before{
 	padding-top: 50px;
 	padding-bottom: 100px;
 	background-color: #D1DBBD;
+	text-align: center;
+}
+
+.container-code{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	background-color: #193441;
+	color: #FCFFF5;
+	text-align: center;
+}
+
+.git-button{
+	color: #FCFFF5;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid white;
+	border-radius: 25%;
+}
+.git-button:hover{
+	background-color: #3E606F;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid white;
+	border-radius: 25%;
 }
