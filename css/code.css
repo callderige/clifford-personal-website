@@ -1,0 +1,20 @@
+.container-code{
+	padding-top: 50px;
+	padding-bottom: 75px;
+	background-color: #193441;
+	color: #FCFFF5;
+	text-align: center;
+}
+
+.git-button{
+	color: #FCFFF5;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid white;
+	border-radius: 25%;
+}
+.git-button:hover{
+	background-color: #3E606F;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid white;
+	border-radius: 25%;
+}

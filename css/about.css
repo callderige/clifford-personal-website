@@ -1,0 +1,11 @@
+.container-about{
+	padding-top: 50px;
+	padding-bottom: 75px;
+	background-color: #3E606F;
+	color: #FCFFF5;
+	text-align: center;
+}
+
+.about-paragraph{
+	font-size: 18px;
+}

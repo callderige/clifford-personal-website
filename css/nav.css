@@ -1,0 +1,68 @@
+.nav-container-style{
+	border-bottom: 1px solid #91AA9D; 
+}
+
+a.contact{
+	display: block;
+    position: relative;
+    top: -71px;
+    visibility: hidden;
+}
+
+a.about{
+	display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+a.resume{
+	display: block;
+    position: relative;
+    top: -71px;
+    visibility: hidden;
+}
+
+a.code{
+	display: block;
+    position: relative;
+    top: -71px;
+    visibility: hidden;
+}
+
+
+nav{
+	text-align: center;
+	background-color: #193441;
+	font-weight: bold;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	display: inline-flex;
+	list-style: none;
+	background-color: #193441;
+}
+
+nav li{
+	padding-right: 0;
+	display: inline-block;
+	border-left: 1px solid #91AA9D;
+}
+nav li:last-child{
+	border-right: 1px solid #91AA9D;
+}
+nav li a, nav li a:visited{
+	display: block;
+	padding: 25px 25px 25px 25px;
+	text-decoration: none;
+	color: #FCFFF5;
+}
+nav li a:hover{
+	color: #D1DBBD;
+	text-decoration: none;
+}
+nav li a:active{
+	color: #FCFFF5;
+}
