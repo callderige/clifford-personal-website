@@ -1,0 +1,10 @@
+@import url("about.css");
+@import url("code.css");
+@import url("contact.css");
+@import url("nav.css");
+@import url("resume.css");
+
+body{
+	color: #193441;
+	font-family: Times New Roman, serif; 
+}
