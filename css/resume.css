@@ -1,9 +1,3 @@
-.container-resume{
-	padding-top: 50px;
-	padding-bottom: 75px;
-	background-color: #FCFFF5;
-}
-
 .resume-header{
 	padding-bottom: 50px;
 	text-align: center;
@@ -28,11 +22,6 @@
 	letter-spacing: 1px;
 }
 
-.resume-hr{
-	margin-top: 50px;
-	margin-bottom: 50px;
-	border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc)
+.resume-container {
+	display: none;
 }

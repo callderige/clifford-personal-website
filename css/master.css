@@ -4,7 +4,12 @@
 @import url("nav.css");
 @import url("resume.css");
 
-body{
-	color: #193441;
-	font-family: Times New Roman, serif; 
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image: url('../imgs/background.jpg');
+	background-size: cover;
+	overflow: scroll;
+	background-attachment: fixed;
 }

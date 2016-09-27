@@ -1,11 +1,34 @@
-.container-about{
-	padding-top: 50px;
-	padding-bottom: 75px;
-	background-color: #3E606F;
-	color: #FCFFF5;
-	text-align: center;
+.container-background {
+	color: white;
+	margin-top: 75px;
+	border-radius: 0px !important;
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 25px;
+	padding-bottom: 25px; 
+	margin-right: 50px;
+	margin-left: 50px;
 }
 
-.about-paragraph{
-	font-size: 18px;
+.about-me-inner {
+	border-radius: 0px !important;
+	color: white; 
+	padding-top: 25px; 
+	padding-bottom: 25px; 
+}
+
+@media (min-width: 991px) {
+	.about-me-inner {
+		border-radius: 0px !important;
+		color: white; 
+		padding-top: 25px; 
+		padding-bottom: 25px; 
+		margin-right: 50px; 
+		margin-left: 50px;
+	}
+}
+
+@media (max-width: 768px) {
+	.my-photo {
+		display: none;
+	}
 }
