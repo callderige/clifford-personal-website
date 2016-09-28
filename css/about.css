@@ -1,14 +1,3 @@
-.container-background {
-	color: white;
-	margin-top: 75px;
-	border-radius: 0px !important;
-	background-color: rgba(0,0,0,0.5);
-	padding-top: 25px;
-	padding-bottom: 25px; 
-	margin-right: 50px;
-	margin-left: 50px;
-}
-
 .about-me-inner {
 	border-radius: 0px !important;
 	color: white; 
@@ -32,3 +21,9 @@
 		display: none;
 	}
 }
+
+.email-style, .email-style:hover, .email-style:focus, .email-style:visited, .email-style:active {
+	color: white; 
+	word-wrap: break-word;
+}
+

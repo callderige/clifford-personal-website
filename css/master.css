@@ -1,6 +1,5 @@
 @import url("about.css");
 @import url("code.css");
-@import url("contact.css");
 @import url("nav.css");
 @import url("resume.css");
 
@@ -12,4 +11,24 @@ body {
 	background-size: cover;
 	overflow: scroll;
 	background-attachment: fixed;
+}
+
+.container-background {
+	color: white;
+	margin-top: 75px;
+	border-radius: 0px !important;
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 25px;
+	padding-bottom: 25px; 
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.information {
+	font-size: 18px;
 }
