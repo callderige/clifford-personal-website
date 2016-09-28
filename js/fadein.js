@@ -1,17 +1,17 @@
 $('.about-link').click(function() {
-  $(".resume-container").css('display','none');
-  $(".code-container").css('display','none');
-  $(".about-container").css('display','block');
+ 	$(".resume-container").fadeOut(250);
+  	$(".code-container").fadeOut(250);
+  	$(".about-container").delay(250).fadeIn(250);
 });
 
 $('.resume-link').click(function() {
-  $(".code-container").css('display','none');
-  $(".about-container").css('display','none'); 
-  $(".resume-container").css('display','block');
+	$(".about-container").fadeOut(250);
+	$(".code-container").fadeOut(250);
+  	$(".resume-container").delay(250).fadeIn(250);
 });
 
 $('.code-link').click(function() {
-  $(".resume-container").css('display','none');
-  $(".about-container").css('display','none');
-  $(".code-container").css('display','block');
+  	$(".about-container").fadeOut(250);
+  	$(".resume-container").fadeOut(250);
+  	$(".code-container").delay(250).fadeIn(250);
 });
