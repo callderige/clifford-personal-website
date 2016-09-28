@@ -3,6 +3,7 @@
 	color: white; 
 	padding-top: 25px; 
 	padding-bottom: 25px; 
+	height: 80vh;
 }
 
 @media (min-width: 991px) {
