@@ -8,3 +8,8 @@
 	display: none;
 	margin: 50px;
 }
+
+.project-link {
+	color: white !important;
+	text-decoration: underline;
+}
