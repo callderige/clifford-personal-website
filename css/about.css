@@ -1,11 +1,30 @@
-.container-about{
-	padding-top: 50px;
-	padding-bottom: 75px;
-	background-color: #3E606F;
-	color: #FCFFF5;
-	text-align: center;
+.about-me-inner {
+	border-radius: 0px !important;
+	color: white; 
+	padding-top: 25px; 
+	padding-bottom: 25px; 
+	height: 80vh;
 }
 
-.about-paragraph{
-	font-size: 18px;
+@media (min-width: 991px) {
+	.about-me-inner {
+		border-radius: 0px !important;
+		color: white; 
+		padding-top: 25px; 
+		padding-bottom: 25px; 
+		margin-right: 50px; 
+		margin-left: 50px;
+	}
 }
+
+@media (max-width: 768px) {
+	.my-photo {
+		display: none;
+	}
+}
+
+.email-style, .email-style:hover, .email-style:focus, .email-style:visited, .email-style:active {
+	color: white; 
+	word-wrap: break-word;
+}
+
