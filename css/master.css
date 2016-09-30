@@ -7,11 +7,12 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background-image: url('../imgs/background.jpg');
-	background-size: cover;
+	background: url('../imgs/background.jpg')no-repeat center center fixed; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
 	overflow: scroll;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
 }
 
 .container-background {
