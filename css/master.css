@@ -9,10 +9,10 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	background: url('../imgs/background.jpg')no-repeat center center fixed; 
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
- 	-o-background-size: cover;
-  	background-size: cover;
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+ 	-o-background-size: 100% 100%;
+  	background-size: 100% 100%;
 	overflow: scroll;
 }
 
@@ -26,6 +26,27 @@ body {
 	margin-right: 50px;
 	margin-left: 50px;
 }
+
+@media(max-width: 767px) {
+	body {
+		background: #8FBC8F;
+	}
+
+	.container-background {
+		color: white;
+		margin-top: 40px;
+		border-radius: 0px !important;
+		background-color: rgba(0,0,0,0.5);
+		padding-top: 25px;
+		padding-bottom: 25px; 
+		margin-right: 0px;
+		margin-left: 0px;
+		min-height: 100vh;
+	}
+}
+
+
+
 
 .title {
 	font-weight: bold;
