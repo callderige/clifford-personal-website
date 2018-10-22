@@ -45,8 +45,9 @@ body {
 	}
 }
 
-
-
+.bump {
+	padding-top: 20px;
+}
 
 .title {
 	font-weight: bold;
